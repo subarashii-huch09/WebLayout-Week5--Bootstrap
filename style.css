@@ -1,10 +1,18 @@
 /* An additional CSS class will be declared called .material-icons. Any element that uses this class will have the correct CSS to render these icons from the web font. */
 
 /* setting the size of icons */
-.material-icons.md-18 { font-size: 18px; }
-.material-icons.md-24 { font-size: 24px; }
-.material-icons.md-36 { font-size: 36px; }
-.material-icons.md-48 { font-size: 48px; }
+.material-icons.md-18 {
+  font-size: 18px;
+}
+.material-icons.md-24 {
+  font-size: 24px;
+}
+.material-icons.md-36 {
+  font-size: 36px;
+}
+.material-icons.md-48 {
+  font-size: 48px;
+}
 
 /* other various global setting */
 .w-40 {
@@ -15,10 +23,10 @@
   height: 40px;
 }
 
-.w-65{
+.w-65 {
   width: 65px;
 }
-.w-141{
+.w-141 {
   width: 141px;
 }
 
@@ -26,37 +34,34 @@
   height: 141px;
 }
 
-.mb-4{
+.mb-4 {
   margin-bottom: 4px;
 }
-.mb-32{
+.mb-32 {
   margin-bottom: 32px;
 }
 
-.bg-gray{
-  background-color:#F8F9FA;
+.bg-gray {
+  background-color: #f8f9fa;
 }
 
 a:hover {
-  color:#198764;
+  color: #198764;
 }
-a{
+a {
   text-decoration: none;
-  color:#212529;
+  color: #212529;
 }
 
-.cursor-pointer{
+.cursor-pointer {
   cursor: pointer;
 }
 
-
-.pagination > li > a
-{
-    color:green;
+.pagination > li > a {
+  color: green;
 }
 
-.pagination > .active > a
-{
-    background-color: #36b647 !Important;
-    border: solid 1px #36b647 !Important;
+.pagination > .active > a {
+  background-color: #36b647 !important;
+  border: solid 1px #36b647 !important;
 }
