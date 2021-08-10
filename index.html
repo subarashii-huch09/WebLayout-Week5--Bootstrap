@@ -19,7 +19,7 @@
 
 
 <body>
-  
+  <!-- sidebar - navbar -->
   <div class="d-flex">
     <nav class="bg-gray p-5 d-flex flex-column justify-content-between">
       <ul class ="fs-5 fw-bold">
@@ -41,6 +41,7 @@
       </div>
     </nav>
 
+    <!-- main: table  -->
     <div class= "admin p-5">
       <section class ="mb-5 d-flex justify-content-between">
       <div class = "d-flex align-items-center">
@@ -49,10 +50,10 @@
       </div>
 
       <ul class ="list-unstyled d-flex align-items-center mb-0">
-        <li><span class =" material-icons md-24 me-4 ">search</span></li>
-        <li><span class =" material-icons md-24">notifications</li>
+        <li><span class =" material-icons md-24 me-4 cursor-pointer ">search</span></li>
+        <li><span class =" material-icons md-24 cursor-pointer">notifications</li>
       </ul>
-    </section>
+      </section>
 
 
       <section class ="mb-5">
@@ -73,10 +74,10 @@
         <td class ="py-3">emir.wicks@mail.com</td>
         <td class ="py-3"> Yes</td>
         <td class ="py-3">
-          <span class="material-icons mx-2" data-bs-toggle="modal" data-bs-target="#user-info-modal"">
+          <span class="material-icons mx-2 cursor-pointer" data-bs-toggle="modal" data-bs-target="#user-info-modal"">
 visibility
 </span>
-<span class="material-icons mx-2 ">
+<span class="material-icons mx-2 cursor-pointer ">
 edit
 </span>
 </td>
@@ -87,10 +88,10 @@ edit
         <td class ="py-3">zaina.goldsmith@mail.com</td>
         <td class ="py-3"> Yes</td>
         <td class ="py-3">
-          <span class="material-icons mx-2" data-bs-toggle="modal" data-bs-target="#user-info-modal"">
+          <span class="material-icons mx-2 cursor-pointer" data-bs-toggle="modal" data-bs-target="#user-info-modal"">
 visibility
 </span>
-<span class="material-icons mx-2 ">
+<span class="material-icons mx-2 cursor-pointer ">
 edit
 </span>
 </td>
@@ -103,10 +104,10 @@ edit
         <td class ="py-3">mahima.lopezs@mail.com</td>
         <td class ="py-3"> Yes</td>
         <td class ="py-3">
-          <span class="material-icons mx-2" data-bs-toggle="modal" data-bs-target="#user-info-modal"">
+          <span class="material-icons mx-2 cursor-pointer" data-bs-toggle="modal" data-bs-target="#user-info-modal"">
 visibility
 </span>
-<span class="material-icons mx-2 ">
+<span class="material-icons mx-2 cursor-pointer">
 edit
 </span>
 </td>
@@ -223,6 +224,23 @@ edit
 
     </div>
   </div>
+
+<!-- pagination -->
+<section>
+  <ul class="pagination justify-content-center">
+    <li class="page-item">
+      <a class="page-link" href="#" tabindex="-1" aria-disabled="true"><<</a>
+    </li>
+    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+    <li class="page-item " aria-current="page">
+      <a class="page-link" href="#">2</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">>></a>
+    </li>
+  </ul>
+</section>
 
 
 

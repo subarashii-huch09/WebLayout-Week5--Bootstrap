@@ -42,3 +42,18 @@ a{
   color:#212529;
 }
 
+.cursor-pointer{
+  cursor: pointer;
+}
+
+
+.pagination > li > a
+{
+    color:green;
+}
+
+.pagination > .active > a
+{
+    background-color: #36b647 !Important;
+    border: solid 1px #36b647 !Important;
+}
