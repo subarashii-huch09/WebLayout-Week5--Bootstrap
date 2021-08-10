@@ -1,0 +1,40 @@
+/* An additional CSS class will be declared called .material-icons. Any element that uses this class will have the correct CSS to render these icons from the web font. */
+
+/* setting the size of icons */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/* other various global setting */
+.w-40 {
+  width: 40px;
+}
+
+.h-40 {
+  height: 40px;
+}
+
+.mb-4{
+  margin-bottom: 4px;
+}
+.mb-32{
+  margin-bottom: 32px;
+}
+
+.bg-gray{
+  background-color:#F8F9FA;
+}
+
+a:hover {
+  color:#198764;
+}
+a{
+  text-decoration: none;
+  color:#212529;
+}
+
+nav {
+  height: 800px;
+}
+
