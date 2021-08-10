@@ -15,6 +15,14 @@
   height: 40px;
 }
 
+.w-141{
+  width: 141px;
+}
+
+.h-141 {
+  height: 141px;
+}
+
 .mb-4{
   margin-bottom: 4px;
 }
@@ -32,10 +40,5 @@ a:hover {
 a{
   text-decoration: none;
   color:#212529;
-}
-
-nav {
-  height: 800px;
-  
 }
 
